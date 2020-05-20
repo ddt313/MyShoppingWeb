@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-content {
+  width: 1200px;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+.wrapper-content .title {
+  display: block;
+  text-align: center;
+}
+
+.wrapper-content .login-form {
+  /* margin-top: 15px; */
+  margin: 15px auto;
+  width: 40%;
+  text-align: left;
+}
+
+.wrapper-content .login-form input {
+  width: 100%;
+  height: 27px;
+  margin: 7px 0px 15px 0px;
+}
+
+.wrapper-content .login-form .bnt-submit {
+  display: block;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #107cfa;
+}
+
+.wrapper-content .login-form label {
+  display: block;
+}

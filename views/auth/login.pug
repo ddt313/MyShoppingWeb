@@ -1,0 +1,18 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    link(rel="stylesheet", href="/css/loginStyle.css")
+    title Shopping Login
+  body
+    .wrapper-content
+      h1.title Login Form
+
+      form.login-form(method="post")
+        label(for="username") Username
+        input#username(type="text", name="username")
+
+        label(for="password") Password
+        input#password(type="password", name="password")
+
+        button.bnt-submit(type="submit") Login

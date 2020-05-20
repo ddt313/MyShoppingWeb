@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  height: 36px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.main-header ul {
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header ul li {
+  list-style: none;
+}
+
+.main-header ul li a {
+  display: block;
+  text-decoration: none;
+}
